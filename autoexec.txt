@@ -1,0 +1,5 @@
+cas mysession sessopts=(caslib=casuser timeout=1800 locale="en_US");
+libname casuser cas caslib="casuser";
+libname public cas caslib="public";
+libname swee cas caslib="swee";
+options casdatalimit=ALL;
